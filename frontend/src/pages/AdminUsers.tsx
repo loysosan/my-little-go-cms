@@ -16,7 +16,7 @@ const AdminUsers: React.FC = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await fetch('/api/admin/users', {
+        const res = await fetch('/admin/users', {
           headers: {
             'Content-Type': 'application/json',
             Authorization: `Bearer ${token}`

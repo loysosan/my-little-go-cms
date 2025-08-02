@@ -1,0 +1,37 @@
+/* Стилі для календаря */
+.custom-calendar .react-calendar {
+  width: 100%;
+  border: none;
+  font-family: inherit;
+}
+
+.custom-calendar .react-calendar__tile {
+  padding: 12px 6px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #3b82f6 !important;
+  color: white;
+}
+
+.custom-calendar .react-calendar__tile--now {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+.custom-calendar .react-calendar__navigation {
+  margin-bottom: 10px;
+}
+
+.custom-calendar .react-calendar__navigation button {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.custom-calendar .react-calendar__month-view__weekdays {
+  font-weight: 500;
+  color: #6b7280;
+}
